@@ -29,16 +29,17 @@ function Training() {
       }, [seconds, exercice]);
 
 
-
     return (
         <exoContext.Consumer>
         {exo => {
+
+            let test= exo[exercice[count].exoLabel];
             return(
         <div className='container center'>
             <div className="timer">
                 <div className="container">
                     <p>{exercice[count].exoLabel}</p>
-                    <p>{exo.L2.content}</p>
+                    {test ?  <p key={test.id}>{test.content}</p> : null }
                     <p className='temps'>{seconds}</p>
                 </div>
             </div>

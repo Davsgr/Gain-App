@@ -3,6 +3,13 @@ import Modal from '../components/modal/Index'
 import exoContext from './contexts/ExoContext'
 import { ResumeContext } from '../components/contexts/ResumeContext'
 
+import GA1 from '../img/G1.png'
+import GA2 from '../img/G2.png'
+import GA3 from '../img/G3.PNG'
+import GA4 from '../img/G4.png'
+import GA5 from '../img/G5.png'
+import GA6 from '../img/G6.png'
+
 
 const Ventral = () => {
 
@@ -47,6 +54,7 @@ const Ventral = () => {
                             <h2>{ventral.G1.id}</h2>
                         </div>
                         <div className="card-content">
+                        <img className='responsive-img' src={GA1} alt=""/>
                             <p>{ventral.G1.content}</p>
                         </div>
                         <div className="card-action">
@@ -60,6 +68,7 @@ const Ventral = () => {
                             <h2>{ventral.G2.id}</h2>
                         </div>
                         <div className="card-content">
+                        <img className='responsive-img' src={GA2} alt=""/>
                             <p>{ventral.G2.content}</p>
                         </div>
                         <div className="card-action">
@@ -73,6 +82,7 @@ const Ventral = () => {
                             <h2>{ventral.G3.id}</h2>
                         </div>
                         <div className="card-content">
+                        <img className='responsive-img' src={GA3} alt=""/>
                             <p>{ventral.G3.content}</p>
                         </div>
                         <div className="card-action">
@@ -86,6 +96,7 @@ const Ventral = () => {
                             <h2>{ventral.G4.id}</h2>
                         </div>
                         <div className="card-content">
+                        <img className='responsive-img' src={GA4} alt=""/>
                             <p>{ventral.G4.content}</p>
                         </div>
                         <div className="card-action">
@@ -102,6 +113,7 @@ const Ventral = () => {
                             <h2>{ventral.G5.id}</h2>
                         </div>
                         <div className="card-content">
+                        <img className='responsive-img' src={GA5} alt=""/>
                             <p>{ventral.G5.content}</p>
                         </div>
                         <div className="card-action">
@@ -115,6 +127,7 @@ const Ventral = () => {
                             <h2>{ventral.G6.id}</h2>
                         </div>
                         <div className="card-content">
+                        <img className='responsive-img' src={GA6} alt=""/>
                             <p>{ventral.G6.content}</p>
                         </div>
                         <div className="card-action">
