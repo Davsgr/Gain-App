@@ -12,10 +12,8 @@ const Resume = () => {
     const [startProg, setStartProg] = useState(false);
     const [breakSerie, setBreakSerie] = useState('');
     const [openModal, setOpenModal] = useState(false);
-    
 
     console.log(exercice)
-    
 
     const handleReset = () => {
         setStartProg(false);
@@ -74,7 +72,14 @@ const Resume = () => {
                             })}
                         </tr>
                         <tr>
-                            <td>Pause 2 minutes</td>
+                            {exercice.map( (exercice) => {
+                               if  (exercice.serie === 2 && exercice.pauseSerie) {
+                                return (
+                                    <td key={exercice.id}> Pause {exercice.pauseSerie} s</td>
+                                )
+                                }
+                                else return null
+                            })}
                         </tr>
                         <tr>
                             <td>Serie 2</td>
@@ -88,7 +93,14 @@ const Resume = () => {
                             })}
                         </tr>
                         <tr>
-                            <td>Pause 2 minutes</td>
+                            {exercice.map( (exercice) => {
+                               if  (exercice.serie === 3 && exercice.pauseSerie) {
+                                return (
+                                    <td key={exercice.id}> Pause {exercice.pauseSerie} s</td>
+                                )
+                                }
+                                else return null
+                            })}
                         </tr>
                         <tr>
                             <td>Serie 3</td>
@@ -102,7 +114,14 @@ const Resume = () => {
                             })}
                         </tr>
                         <tr>
-                            <td>Pause 2 minutes</td>
+                            {exercice.map( (exercice) => {
+                               if  (exercice.serie === 4 && exercice.pauseSerie) {
+                                return (
+                                    <td key={exercice.id}> Pause {exercice.pauseSerie} s</td>
+                                )
+                                }
+                                else return null
+                            })}
                         </tr>
                         <tr>
                             <td>Serie 4</td>

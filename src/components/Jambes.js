@@ -39,7 +39,7 @@ const Jambes = () => {
         {jambes => {
             return(
                 <div className='container center'>
-            <h1>jambes Exercices</h1>
+            <h1>Jambes Exercices</h1>
             <div className="row">
                 <div className="col s12 m3 l3">
                     <div className="card">
