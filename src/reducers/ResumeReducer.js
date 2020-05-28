@@ -7,6 +7,7 @@ export const ResumeReducer = (state, action) => {
                 serie: action.exo.serie, 
                 exoLabel: action.exo.exoLabel,
                 time: action.exo.time,
+                pauseSerie: 0,
                 id: uuidv1()
             }];
 
