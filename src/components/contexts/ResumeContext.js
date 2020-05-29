@@ -2,7 +2,7 @@ import React, { createContext, useReducer } from 'react';
 import { ResumeReducer } from '../../reducers/ResumeReducer';
 
 export const ResumeContext = createContext();
-const initialState = [{ serie: 1, exoLabel: '',time: '', id: 0 , training: false}];
+const initialState = [{ serie: 1, exoLabel: '',time: '', id: 0 , training: false, finish: 0}];
 
 const ResumeContextProvider= (props) => {
     const [exercice, dispatch] = useReducer (ResumeReducer, initialState)
