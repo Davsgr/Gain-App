@@ -3,6 +3,12 @@ import Modal from '../components/modal/Index'
 import exoContext from './contexts/ExoContext'
 import { ResumeContext } from '../components/contexts/ResumeContext'
 
+import GJ1 from '../img/J1.png'
+import GJ2 from '../img/J2.png'
+import GJ3 from '../img/J3.png'
+import GJ5 from '../img/J5.png'
+
+
 
 const Jambes = () => {
 
@@ -41,10 +47,13 @@ const Jambes = () => {
                 <div className='container center'>
             <h1>Jambes Exercices</h1>
             <div className="row">
-                <div className="col s12 m3 l3">
-                    <div className="card">
+                <div className="col s12 m12 l12">
+                    <div className="card horizontal">
                         <div className="card-title">
                             <h2>{jambes.J1.id}</h2>
+                        </div>
+                        <div className="card-image">
+                            <img className='responsive-img' src={GJ1} alt=""/>
                         </div>
                         <div className="card-content">
                             <p>{jambes.J1.content}</p>
@@ -54,10 +63,13 @@ const Jambes = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col s12 m3 l3">
-                    <div className="card">
+                <div className="col s12 m12 l12">
+                    <div className="card horizontal">
                         <div className="card-title">
                             <h2>{jambes.J2.id}</h2>
+                        </div>
+                        <div className="card-image">
+                            <img className='responsive-img' src={GJ2} alt=""/>
                         </div>
                         <div className="card-content">
                             <p>{jambes.J2.content}</p>
@@ -67,10 +79,13 @@ const Jambes = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col s12 m3 l3">
-                    <div className="card">
+                <div className="col s12 m12 l12">
+                    <div className="card horizontal">
                         <div className="card-title">
                             <h2>{jambes.J3.id}</h2>
+                        </div>
+                        <div className="card-image">
+                            <img className='responsive-img' src={GJ3} alt=""/>
                         </div>
                         <div className="card-content">
                             <p>{jambes.J3.content}</p>
@@ -80,10 +95,13 @@ const Jambes = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col s12 m3 l3">
-                    <div className="card">
+                <div className="col s12 m12 l12">
+                    <div className="card horizontal">
                         <div className="card-title">
                             <h2>{jambes.J4.id}</h2>
+                        </div>
+                        <div className="card-image">
+                            <img className='responsive-img'  alt="no image"/>
                         </div>
                         <div className="card-content">
                             <p>{jambes.J4.content}</p>
@@ -96,10 +114,13 @@ const Jambes = () => {
             </div>
 
             <div className="row">
-                <div className="col s12 m3 l3">
-                    <div className="card">
+                <div className="col s12 m12 l12">
+                    <div className="card horizontal">
                         <div className="card-title">
                             <h2>{jambes.J5.id}</h2>
+                        </div>
+                        <div className="card-image">
+                            <img className='responsive-img' src={GJ5} alt=""/>
                         </div>
                         <div className="card-content">
                             <p>{jambes.J5.content}</p>

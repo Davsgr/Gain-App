@@ -41,13 +41,15 @@ const Pompes = () => {
                 <div className='container center'>
             <h1>Pompes Exercices</h1>
             <div className="row">
-                <div className="col s12 m3 l3">
-                    <div className="card">
+                <div className="col s12 m12 l12">
+                    <div className="card horizontal">
                         <div className="card-title">
                             <h2>{pompes.P1.id}</h2>
                         </div>
-                        <div className="card-content">
+                        <div className="card-image">
                             <img className='responsive-img' src={pompe} alt=""/>
+                        </div>
+                        <div className="card-content">
                             <p>{pompes.P1.content}</p>
                         </div>
                         <div className="card-action">
@@ -55,13 +57,15 @@ const Pompes = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col s12 m3 l3">
-                    <div className="card">
+                <div className="col s12 m12 l12">
+                    <div className="card horizontal">
                         <div className="card-title">
                             <h2>{pompes.P2.id}</h2>
                         </div>
+                        <div className="card-image">
+                            <img className='responsive-img' src={pompe} alt=""/>
+                        </div>
                         <div className="card-content">
-                        <img className='responsive-img' src={pompe} alt=""/>
                             <p>{pompes.P2.content}</p>
                         </div>
                         <div className="card-action">
@@ -69,13 +73,15 @@ const Pompes = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col s12 m3 l3">
-                    <div className="card">
+                <div className="col s12 m12 l12">
+                    <div className="card horizontal">
                         <div className="card-title">
                             <h2>{pompes.P3.id}</h2>
                         </div>
+                        <div className="card-image">
+                            <img className='responsive-img' src={pompe} alt=""/>
+                        </div>
                         <div className="card-content">
-                        <img className='responsive-img' src={pompe} alt=""/>
                             <p>{pompes.P3.content}</p>
                         </div>
                         <div className="card-action">
@@ -83,13 +89,15 @@ const Pompes = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col s12 m3 l3">
-                    <div className="card">
+                <div className="col s12 m12 l12">
+                    <div className="card horizontal">
                         <div className="card-title">
                             <h2>{pompes.P4.id}</h2>
                         </div>
+                        <div className="card-image">
+                            <img className='responsive-img' src={pompe} alt=""/>
+                        </div>
                         <div className="card-content">
-                        <img className='responsive-img' src={pompe} alt=""/>
                             <p>{pompes.P4.content}</p>
                         </div>
                         <div className="card-action">

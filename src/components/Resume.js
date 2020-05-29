@@ -179,6 +179,89 @@ const Resume = () => {
                 <div className="center">
                     <button className='btn grey' onClick={handleReset}>Reset</button>
                 </div>
+
+                <table className='resume_ex_training'>
+                    <thead>
+
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Serie 1</td>
+                            {exercice.map( (exercice) => {
+                               if  (exercice.serie === 1) {
+                                return (
+                                    <td key={exercice.id}> {exercice.exoLabel} {exercice.time}</td>
+                                )
+                                }
+                                else return null
+                            })}
+                        </tr>
+                        <tr>
+                            {exercice.map( (exercice) => {
+                               if  (exercice.serie === 2 && exercice.pauseSerie) {
+                                return (
+                                    <td key={exercice.id}> Pause {exercice.pauseSerie} s</td>
+                                )
+                                }
+                                else return null
+                            })}
+                        </tr>
+                        <tr>
+                            <td>Serie 2</td>
+                            {exercice.map( (exercice) => {
+                               if  (exercice.serie === 2) {
+                                return (
+                                    <td key={exercice.id}> {exercice.exoLabel} {exercice.time}</td>
+                                )
+                                }
+                                else return null
+                            })}
+                        </tr>
+                        <tr>
+                            {exercice.map( (exercice) => {
+                               if  (exercice.serie === 3 && exercice.pauseSerie) {
+                                return (
+                                    <td key={exercice.id}> Pause {exercice.pauseSerie} s</td>
+                                )
+                                }
+                                else return null
+                            })}
+                        </tr>
+                        <tr>
+                            <td>Serie 3</td>
+                            {exercice.map( (exercice) => {
+                               if  (exercice.serie === 3) {
+                                return (
+                                    <td key={exercice.id}> {exercice.exoLabel} {exercice.time}</td>
+                                )
+                                }
+                                else return null
+                            })}
+                        </tr>
+                        <tr>
+                            {exercice.map( (exercice) => {
+                               if  (exercice.serie === 4 && exercice.pauseSerie) {
+                                return (
+                                    <td key={exercice.id}> Pause {exercice.pauseSerie} s</td>
+                                )
+                                }
+                                else return null
+                            })}
+                        </tr>
+                        <tr>
+                            <td>Serie 4</td>
+                            {exercice.map( (exercice) => {
+                               if  (exercice.serie === 4) {
+                                return (
+                                    <td key={exercice.id}> {exercice.exoLabel} {exercice.time}</td>
+                                )
+                                }
+                                else return null
+                            })}
+                        </tr>
+                    </tbody>
+                </table>
+
             </div>
         )
 

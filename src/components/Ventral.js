@@ -48,13 +48,15 @@ const Ventral = () => {
                 <div className='container center'>
             <h1>Ventral Exercices</h1>
             <div className="row">
-                <div className="col s12 m3 l3">
-                    <div className="card">
+                <div className="col s12 m12 l12">
+                    <div className="card horizontal">
                         <div className="card-title">
                             <h2>{ventral.G1.id}</h2>
                         </div>
+                        <div className="card-image">
+                            <img className='responsive-img' src={GA1} alt=""/>
+                        </div>
                         <div className="card-content">
-                        <img className='responsive-img' src={GA1} alt=""/>
                             <p>{ventral.G1.content}</p>
                         </div>
                         <div className="card-action">
@@ -62,13 +64,15 @@ const Ventral = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col s12 m3 l3">
-                    <div className="card">
+                <div className="col s12 m12 l12">
+                    <div className="card horizontal">
                         <div className="card-title">
                             <h2>{ventral.G2.id}</h2>
                         </div>
+                        <div className="card-image">
+                            <img className='responsive-img' src={GA2} alt=""/>
+                        </div>
                         <div className="card-content">
-                        <img className='responsive-img' src={GA2} alt=""/>
                             <p>{ventral.G2.content}</p>
                         </div>
                         <div className="card-action">
@@ -76,13 +80,15 @@ const Ventral = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col s12 m3 l3">
-                    <div className="card">
+                <div className="col s12 m12 l12">
+                    <div className="card horizontal">
                         <div className="card-title">
                             <h2>{ventral.G3.id}</h2>
                         </div>
+                        <div className="card-image">
+                            <img className='responsive-img' src={GA3} alt=""/>
+                        </div>
                         <div className="card-content">
-                        <img className='responsive-img' src={GA3} alt=""/>
                             <p>{ventral.G3.content}</p>
                         </div>
                         <div className="card-action">
@@ -90,13 +96,15 @@ const Ventral = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col s12 m3 l3">
-                    <div className="card">
+                <div className="col s12 m12 l12">
+                    <div className="card horizontal">
                         <div className="card-title">
                             <h2>{ventral.G4.id}</h2>
                         </div>
+                        <div className="card-image">
+                            <img className='responsive-img' src={GA4} alt=""/>
+                        </div>
                         <div className="card-content">
-                        <img className='responsive-img' src={GA4} alt=""/>
                             <p>{ventral.G4.content}</p>
                         </div>
                         <div className="card-action">
@@ -107,13 +115,15 @@ const Ventral = () => {
             </div>
 
             <div className="row">
-                <div className="col s12 m3 l3">
-                    <div className="card">
+                <div className="col s12 m12 l12">
+                    <div className="card horizontal">
                         <div className="card-title">
                             <h2>{ventral.G5.id}</h2>
                         </div>
+                        <div className="card-image">
+                            <img className='responsive-img' src={GA5} alt=""/>
+                        </div>
                         <div className="card-content">
-                        <img className='responsive-img' src={GA5} alt=""/>
                             <p>{ventral.G5.content}</p>
                         </div>
                         <div className="card-action">
@@ -121,13 +131,15 @@ const Ventral = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col s12 m3 l3">
-                    <div className="card">
+                <div className="col s12 m12 l12">
+                    <div className="card horizontal">
                         <div className="card-title">
                             <h2>{ventral.G6.id}</h2>
                         </div>
+                        <div className="card-image">
+                            <img className='responsive-img' src={GA6} alt=""/>
+                        </div>
                         <div className="card-content">
-                        <img className='responsive-img' src={GA6} alt=""/>
                             <p>{ventral.G6.content}</p>
                         </div>
                         <div className="card-action">

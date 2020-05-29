@@ -11,7 +11,7 @@ function Training() {
     const { exercice } = useContext(ResumeContext)
     const [seconds, setSeconds] = useState(5);
     const [count, setCount] = useState(0);
-    const [pause, setPause] = useState(3);
+    const [pause, setPause] = useState(15);
     const [toggleBr, setToggleBr] = useState(false);
     const [finishSound, setFinishSound] = useState(false);
 
@@ -26,7 +26,7 @@ function Training() {
     const zero = new UIfx(
     zeroAudio,
         {
-            volume: 0.4, // number between 0.0 ~ 1.0
+            volume: 1.0, // number between 0.0 ~ 1.0
             throttleMs: 100
         }
     )
@@ -91,7 +91,7 @@ function Training() {
                 <div className='container center'>
                     <div className="timer">
                         <div className="container">
-                            {toggleBr ? <p>{exercice[count].exoLabel}</p> : <p>Respire et prépare toi...</p> }
+                            {toggleBr ? <p>Série : {exercice[count].serie} Exercice: {exercice[count].exoLabel}</p> : <p>Respire et prépare toi...</p> }
                             {test && toggleBr ?  <p key={test.id}>{test.content}</p> : null }
                             {exercice[count].time === 'finish' ? <p className='temps'>Good job</p> : <p className='temps'>{seconds}</p> }
                             
