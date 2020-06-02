@@ -33,7 +33,7 @@ export const ResumeReducer = (state, action) => {
         case 'REMOVE_EX_TIME' :
             return state.filter(book => book.id !== action.id);
         */
-       
+
         default:
             return state
     }

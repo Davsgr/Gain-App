@@ -5,7 +5,7 @@ import { ResumeContext } from '../components/contexts/ResumeContext'
 
 import GA1 from '../img/G1.png'
 import GA2 from '../img/G2.png'
-import GA3 from '../img/G3.PNG'
+import GA3 from '../img/G3.png'
 import GA4 from '../img/G4.png'
 import GA5 from '../img/G5.png'
 import GA6 from '../img/G6.png'
