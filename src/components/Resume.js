@@ -63,9 +63,9 @@ const Resume = () => {
                         <tr>
                             <td>Serie 1</td>
                             {exercice.map( (exercice) => {
-                               if  (exercice.serie === 1) {
+                               if  (exercice.serie === 1 && exercice.exoLabel != null) {
                                 return (
-                                    <td key={exercice.id}> {exercice.exoLabel} {exercice.time}</td>
+                                    <td key={exercice.id}> {exercice.exoLabel} {exercice.time}s</td>
                                 )
                                 }
                                 else return null
@@ -84,9 +84,9 @@ const Resume = () => {
                         <tr>
                             <td>Serie 2</td>
                             {exercice.map( (exercice) => {
-                               if  (exercice.serie === 2) {
+                               if  (exercice.serie === 2 && exercice.exoLabel != null) {
                                 return (
-                                    <td key={exercice.id}> {exercice.exoLabel} {exercice.time}</td>
+                                    <td key={exercice.id}> {exercice.exoLabel} {exercice.time}s</td>
                                 )
                                 }
                                 else return null
@@ -105,9 +105,9 @@ const Resume = () => {
                         <tr>
                             <td>Serie 3</td>
                             {exercice.map( (exercice) => {
-                               if  (exercice.serie === 3) {
+                               if  (exercice.serie === 3 && exercice.exoLabel != null) {
                                 return (
-                                    <td key={exercice.id}> {exercice.exoLabel} {exercice.time}</td>
+                                    <td key={exercice.id}> {exercice.exoLabel} {exercice.time}s</td>
                                 )
                                 }
                                 else return null
@@ -126,9 +126,9 @@ const Resume = () => {
                         <tr>
                             <td>Serie 4</td>
                             {exercice.map( (exercice) => {
-                               if  (exercice.serie === 4) {
+                               if  (exercice.serie === 4 && exercice.exoLabel != null) {
                                 return (
-                                    <td key={exercice.id}> {exercice.exoLabel} {exercice.time}</td>
+                                    <td key={exercice.id}> {exercice.exoLabel} {exercice.time}s</td>
                                 )
                                 }
                                 else return null

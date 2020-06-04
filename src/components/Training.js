@@ -12,7 +12,7 @@ function Training() {
     const { exercice } = useContext(ResumeContext)
     const [seconds, setSeconds] = useState(5);
     const [count, setCount] = useState(0);
-    const [pause, setPause] = useState(1);
+    const [pause, setPause] = useState(15);
     const [toggleBr, setToggleBr] = useState(false);
     const [finishSound, setFinishSound] = useState(false);
 
