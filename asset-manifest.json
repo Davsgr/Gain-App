@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Gain-App/static/css/main.758cc774.chunk.css",
-    "main.js": "/Gain-App/static/js/main.42ac7778.chunk.js",
-    "main.js.map": "/Gain-App/static/js/main.42ac7778.chunk.js.map",
+    "main.css": "/Gain-App/static/css/main.03e383ed.chunk.css",
+    "main.js": "/Gain-App/static/js/main.0471e97f.chunk.js",
+    "main.js.map": "/Gain-App/static/js/main.0471e97f.chunk.js.map",
     "runtime-main.js": "/Gain-App/static/js/runtime-main.593a365a.js",
     "runtime-main.js.map": "/Gain-App/static/js/runtime-main.593a365a.js.map",
     "static/js/2.7cde521d.chunk.js": "/Gain-App/static/js/2.7cde521d.chunk.js",
     "static/js/2.7cde521d.chunk.js.map": "/Gain-App/static/js/2.7cde521d.chunk.js.map",
     "index.html": "/Gain-App/index.html",
-    "precache-manifest.fcb421224640acbb05ab0e3eeb3ab370.js": "/Gain-App/precache-manifest.fcb421224640acbb05ab0e3eeb3ab370.js",
+    "precache-manifest.7a556a53f6adbb84f7db470d596748e9.js": "/Gain-App/precache-manifest.7a556a53f6adbb84f7db470d596748e9.js",
     "service-worker.js": "/Gain-App/service-worker.js",
-    "static/css/main.758cc774.chunk.css.map": "/Gain-App/static/css/main.758cc774.chunk.css.map",
+    "static/css/main.03e383ed.chunk.css.map": "/Gain-App/static/css/main.03e383ed.chunk.css.map",
     "static/js/2.7cde521d.chunk.js.LICENSE.txt": "/Gain-App/static/js/2.7cde521d.chunk.js.LICENSE.txt",
     "static/media/A1.png": "/Gain-App/static/media/A1.f1ef5cee.png",
     "static/media/A2.png": "/Gain-App/static/media/A2.34ecf0b6.png",
@@ -41,7 +41,7 @@
   "entrypoints": [
     "static/js/runtime-main.593a365a.js",
     "static/js/2.7cde521d.chunk.js",
-    "static/css/main.758cc774.chunk.css",
-    "static/js/main.42ac7778.chunk.js"
+    "static/css/main.03e383ed.chunk.css",
+    "static/js/main.0471e97f.chunk.js"
   ]
 }
