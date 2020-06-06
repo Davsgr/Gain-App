@@ -21,7 +21,7 @@ export const ResumeReducer = (state, action) => {
             }];
 
         case 'RESET' :
-            console.log(state)
+            //console.log(state)
             return action.initialState
 
         case 'START_TRAINING':

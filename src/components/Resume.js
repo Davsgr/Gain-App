@@ -13,7 +13,7 @@ const Resume = () => {
     const [breakSerie, setBreakSerie] = useState('');
     const [openModal, setOpenModal] = useState(false);
 
-    console.log(exercice)
+    //console.log(exercice)
 
     const handleReset = () => {
         setStartProg(false);
@@ -31,7 +31,7 @@ const Resume = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log('Envoyer temps choisi : ' + breakSerie)
+        //console.log('Envoyer temps choisi : ' + breakSerie)
         setOpenModal(false);
         dispatch({type: 'ADD_SERIE', exo : {
             serie: exercice[exercice.length-1].serie + 1,

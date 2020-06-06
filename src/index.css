@@ -88,7 +88,7 @@ table tbody tr:nth-child(odd) {
 }
 
 .card-title{
-  margin-right: 100px;
+  margin-right: 10px;
   margin-left: 10px;
   margin-top: auto;
   margin-bottom: auto;
@@ -100,7 +100,7 @@ table tbody tr:nth-child(odd) {
 
 .card-content{
   text-align: left, justify;
-  width: 800px;
+  width: 80%;
 }
 
 .card-action{

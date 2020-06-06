@@ -23,7 +23,7 @@ const Pompes = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log('Envoyer temps choisi : ' + idTitle +' - '+ breakTime )
+        //console.log('Envoyer temps choisi : ' + idTitle +' - '+ breakTime )
         setOpenModal(false);
         dispatch({type: 'ADD_EX_TIME', exo : {
             serie: exercice[exercice.length-1].serie,

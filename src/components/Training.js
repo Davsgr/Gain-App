@@ -90,7 +90,7 @@ function Training() {
             
             let imgLabel = exercice[count].exoLabel;
 
-            console.log(imgLabel)
+            //console.log(imgLabel)
             if (imgLabel === 'P1' || imgLabel ==='P2' || imgLabel ==='P3' || imgLabel ==='P4'){
                 imgLabel = 'pompe';
             } 
