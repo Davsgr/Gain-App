@@ -174,6 +174,7 @@ const Abdo = () => {
                     <form onSubmit={handleSubmit}>
                         <input type="number" 
                             value={breakTime}
+                            min= "0"
                             onChange={(e) => setBreakTime(e.target.value)} 
                             required/>
                         <input className='btn' type="submit" value="Ajouter" />
