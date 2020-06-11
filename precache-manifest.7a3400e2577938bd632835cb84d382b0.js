@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c8a39925dc29d821abc77e76f3563951",
+    "revision": "fd9183a92a2ec6e71b4ff43f4edd8e08",
     "url": "/Gain-App/index.html"
   },
   {
-    "revision": "c1115832d59030d3ef0a",
+    "revision": "9cf8d552433e6aff82db",
     "url": "/Gain-App/static/css/main.03e383ed.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Gain-App/static/js/2.7cde521d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c1115832d59030d3ef0a",
-    "url": "/Gain-App/static/js/main.0471e97f.chunk.js"
+    "revision": "9cf8d552433e6aff82db",
+    "url": "/Gain-App/static/js/main.1d1c0578.chunk.js"
   },
   {
     "revision": "bae13a8b7769a2e89c83",
