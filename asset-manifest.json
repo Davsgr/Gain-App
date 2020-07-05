@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Gain-App/static/css/main.03e383ed.chunk.css",
-    "main.js": "/Gain-App/static/js/main.1d1c0578.chunk.js",
-    "main.js.map": "/Gain-App/static/js/main.1d1c0578.chunk.js.map",
+    "main.js": "/Gain-App/static/js/main.5958b898.chunk.js",
+    "main.js.map": "/Gain-App/static/js/main.5958b898.chunk.js.map",
     "runtime-main.js": "/Gain-App/static/js/runtime-main.593a365a.js",
     "runtime-main.js.map": "/Gain-App/static/js/runtime-main.593a365a.js.map",
     "static/js/2.7cde521d.chunk.js": "/Gain-App/static/js/2.7cde521d.chunk.js",
     "static/js/2.7cde521d.chunk.js.map": "/Gain-App/static/js/2.7cde521d.chunk.js.map",
     "index.html": "/Gain-App/index.html",
-    "precache-manifest.7a3400e2577938bd632835cb84d382b0.js": "/Gain-App/precache-manifest.7a3400e2577938bd632835cb84d382b0.js",
+    "precache-manifest.79f53466102d3ad2f5bbe0afdc627510.js": "/Gain-App/precache-manifest.79f53466102d3ad2f5bbe0afdc627510.js",
     "service-worker.js": "/Gain-App/service-worker.js",
     "static/css/main.03e383ed.chunk.css.map": "/Gain-App/static/css/main.03e383ed.chunk.css.map",
     "static/js/2.7cde521d.chunk.js.LICENSE.txt": "/Gain-App/static/js/2.7cde521d.chunk.js.LICENSE.txt",
@@ -42,6 +42,6 @@
     "static/js/runtime-main.593a365a.js",
     "static/js/2.7cde521d.chunk.js",
     "static/css/main.03e383ed.chunk.css",
-    "static/js/main.1d1c0578.chunk.js"
+    "static/js/main.5958b898.chunk.js"
   ]
 }
