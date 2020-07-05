@@ -40,14 +40,14 @@ function Training() {
         }
     )
     useEffect(() => {
-        let interval = null;
+        //let interval = null;
 
-        interval = setInterval(() => {
+        let interval = setInterval(() => {
             setSeconds(seconds => seconds - 1);
             if (seconds <= 6 && seconds >=2){
                 beep.play();
             }
-        }, 1000);
+        }, 970);
 
         if (seconds === 0) zero.play(); 
 
